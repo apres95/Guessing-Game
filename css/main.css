@@ -1,0 +1,26 @@
+.guess {
+   margin: 1em;
+   padding: 2em 1em;
+   min-height: 250px;
+   
+   input {
+      width: 95%;
+      margin-top: 2.5em;
+   }
+}
+
+.hints {
+   margin-top: 1.5em;
+}
+
+.results {
+   text-align: center;
+}
+
+.panel-info {
+   margin-top: 1em;
+   
+   input {
+      width: 100%;
+   }
+}
