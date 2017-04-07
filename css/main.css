@@ -1,26 +1,33 @@
-.guess {
-   margin: 1em;
-   padding: 2em 1em;
-   min-height: 250px;
-   
-   input {
-      width: 95%;
-      margin-top: 2.5em;
-   }
+body {
+   background-image: url("../img/numbers.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   background-position: center;
 }
 
-.hints {
-   margin-top: 1.5em;
+.button {
+   padding: 5px 10px;
+   background-color: #f442b0;
+   color: black;
+   border-color: black;
+   box-shadow: 2px 2px 1px grey;
+   margin-top: 20px;
 }
-
-.results {
+.guessBox {
+   width: 80%;
+   height: 80%;
+    margin: 0 auto;
    text-align: center;
+   padding-top: 50px;
 }
 
-.panel-info {
-   margin-top: 1em;
-   
-   input {
-      width: 100%;
-   }
+.answerBox {
+   margin: 0 auto;
+   margin-top: 30px;
+   color: black; 
+   background-color: #710fdb;
+   width: 40%;
+   font-size: 30px;
+
 }

@@ -1,16 +1,14 @@
-$(document).ready(function(){
-    $(".high").hide();
-    $(".low").hide();
-    $(".correct").hide();
-});
+var answer = Math.floor((Math.random() * 100) + 1);
 
-function guessingGame(min, max) {
-   var answer = 80//Math.floor((Math.random() * 100) + 1);
+function guessingGame() {
    var guess = document.getElementById("guessInput").value
-   console.log(guess)
-   console.log(answer)
-   if (guess == answer) {
-   $(".correct").show();
-   console.log("working")
-   } else if (guess => answer)
+  if (guess == answer) {
+   $("p").prepend("Congratulations! <br>");
+   } else if (guess > answer) {
+    $("p").prepend(guess + " is too high! Try Again! <br>");
+   return
+   } else if (guess < answer) {
+    $("p").prepend(guess + " is too low! Try Again! <br>");
+   return
+   }
 }
