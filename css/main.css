@@ -13,23 +13,26 @@ body {
    color: black;
    border-color: black;
    box-shadow: 2px 2px 1px grey;
-   margin-top: 20px;
+   margin-top: 15px;
+   border-radius: 5px;
+
 }
 .guessBox {
    width: 80%;
    height: 80%;
     margin: 0 auto;
    text-align: center;
-   padding-top: 30px;
+   padding-top: 20px;
 }
 
 .answerBox {
    margin: 0 auto;
-   margin-top: 30px;
+   margin-top: 20px;
    color: black; 
    background-color: #710fdb;
    width: 40%;
-   font-size: 30px;
+   font-size: 28px;
+   border-radius: 10px;
 
 }
 
@@ -39,11 +42,12 @@ body {
 }
 
 .header h1 {
-   font-size: 80px; 
+   font-size: 70px; 
 }
 
 .header h3 {
-   font-size: 40px;
+   font-size: 25px;
+   margin-top: 12px;
 }
 
 .guess {

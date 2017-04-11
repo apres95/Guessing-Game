@@ -12,11 +12,12 @@
       <div class="header">
          <h1>Guessing Game</h1>
          <h3>Please guess a number between 1 and 100.</h3>
+         <h3>You only get 7 guesses!</h3>
       </div>
       <div class="guessBox">
-         <input type=text class="guess" id="guessInput">
+         <input type=text class="guess" id="guessInput" maxlength="3">
          <br>
-         <button class="button" onclick="guessingGame()">Check Number</button>
+         <button id="button" class="button" onclick="guessingGame()">Check Number</button>
             <div class="answerBox">
                <p></p>
             </div>
